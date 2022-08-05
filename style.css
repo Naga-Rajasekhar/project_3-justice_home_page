@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+body {
+  background-color: rgb(46, 33, 5);
+}
+
+.container {
+  margin: 1.5rem 4rem;
+}
+
+.navbar {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  margin-top: 1.2rem;
+  margin-left: 18rem;
+  color: #fff;
+  gap: 4rem;
+  list-style-type: none;
+}
+
+.list-item:first-child {
+  font-weight: 900;
+}
+
+.button-small {
+  margin-left: 3rem;
+  margin-top: 0.4rem;
+  background: transparent;
+  color: blanchedalmond;
+  border-radius: 2rem;
+  border: 1px solid blanchedalmond;
+  padding: 1rem 2rem;
+}
+
+.hero {
+  margin-top: 2rem;
+}
+
+.hero-heading {
+  float: left;
+  font-size: 3rem;
+  width: 30rem;
+  color: #fff;
+  font-weight: 900;
+}
+
+.hero-body {
+  float: right;
+  width: 25rem;
+  color: #fff;
+  margin-top: 2rem;
+  margin-right: 10rem;
+}
+
+.justice-logo {
+  margin-top: 2rem;
+  width: 99.75vw;
+  height: 330px;
+  margin-left: -4rem;
+}
+
+.bottom div {
+  float: right;
+  display: flex;
+  font-size: 3rem;
+  margin-right: -4rem;
+  margin-left: -2rem;
+  margin-bottom: 1rem;
+}
+
+.button-large-next,
+.button-large-prev {
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 1px solid rgb(202, 199, 12);
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px 3px #e78267;
+}
